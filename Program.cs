@@ -32,6 +32,7 @@
                         1 => new Day1(),
                         2 => new Day2(),
                         3 => new Day3(),
+                        4 => new Day4(),
                         _ => null,
                     };
                     if (selectedDay == null)
@@ -44,9 +45,14 @@
 
                     Console.WriteLine("Result for day {0}, part {1} ===> {2}", day, part, result);
                 }
-                catch (Exception ex)
+                catch (NotImplementedException)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Day {0}, part {1} not supported yet", day, part);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(e.StackTrace);
                     return 1;
                 }
             }
