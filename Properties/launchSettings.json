@@ -1,5 +1,29 @@
 {
   "profiles": {
+    "Day 1, Part 1": {
+      "commandName": "Project",
+      "commandLineArgs": "1 1 ..\\..\\..\\resources\\day1_input.txt"
+    },
+    "Day 1, Part 2": {
+      "commandName": "Project",
+      "commandLineArgs": "1 2 ..\\..\\..\\resources\\day1_input.txt"
+    },
+    "Day 2, Part 1": {
+      "commandName": "Project",
+      "commandLineArgs": "2 1 ..\\..\\..\\resources\\day2_input.txt"
+    },
+    "Day 2, Part 2": {
+      "commandName": "Project",
+      "commandLineArgs": "2 2 ..\\..\\..\\resources\\day2_input.txt"
+    },
+    "Day 3, Part 1": {
+      "commandName": "Project",
+      "commandLineArgs": "3 1 ..\\..\\..\\resources\\day3_input.txt"
+    },
+    "Day 3, Part 2": {
+      "commandName": "Project",
+      "commandLineArgs": "3 2 ..\\..\\..\\resources\\day3_input.txt"
+    },
     "Day 4, Part 1": {
       "commandName": "Project",
       "commandLineArgs": "4 1 ..\\..\\..\\resources\\day4_input.txt"
@@ -23,6 +47,14 @@
     "Day 6, Part 2": {
       "commandName": "Project",
       "commandLineArgs": "6 2 ..\\..\\..\\resources\\day6_input.txt"
+    },
+    "Day 7, Part 1": {
+      "commandName": "Project",
+      "commandLineArgs": "7 1 ..\\..\\..\\resources\\day7_input.txt"
+    },
+    "Day 7, Part 2": {
+      "commandName": "Project",
+      "commandLineArgs": "7 2 ..\\..\\..\\resources\\day7_input.txt"
     }
   }
 }
