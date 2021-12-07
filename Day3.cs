@@ -7,7 +7,7 @@ namespace AdventOfCode2021
         private const char ZERO_BIT = '0';
         private const char ONE_BIT = '1';
 
-        protected override int Part1(IList<string> list)
+        protected override long Part1(IList<string> list)
         {
             int binaryLength = 12;
 
@@ -53,7 +53,7 @@ namespace AdventOfCode2021
             return gammaRate * epsilonRate;
         }
 
-        protected override int Part2(IList<string> list)
+        protected override long Part2(IList<string> list)
         {
             int binaryLength = 12;
 

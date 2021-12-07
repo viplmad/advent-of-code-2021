@@ -7,7 +7,7 @@
         private const string UP = "up";
         private const string SEPARATOR = " ";
 
-        protected override int Part1(IList<string> list)
+        protected override long Part1(IList<string> list)
         {
             int horizontal = 0;
             int depth = 0;
@@ -37,7 +37,7 @@
             return horizontal * depth;
         }
 
-        protected override int Part2(IList<string> list)
+        protected override long Part2(IList<string> list)
         {
             int horizontal = 0;
             int depth = 0;

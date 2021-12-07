@@ -7,7 +7,7 @@
         private const int START_BOARDS_INDEX = 2;
         private const int BOARD_ROWS_COLUMNS = 5;
 
-        protected override int Part1(IList<string> list)
+        protected override long Part1(IList<string> list)
         {
             string[] bingoNumbers = list.FirstOrDefault(string.Empty).Split(BINGO_NUMBER_SEPARATOR);
 
@@ -84,7 +84,7 @@
             return -1;
         }
 
-        protected override int Part2(IList<string> list)
+        protected override long Part2(IList<string> list)
         {
             string[] bingoNumbers = list.FirstOrDefault(string.Empty).Split(BINGO_NUMBER_SEPARATOR);
             

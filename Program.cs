@@ -14,9 +14,9 @@
 
             if (int.TryParse(args[0], out int day) && int.TryParse(args[1], out int part))
             {
-                if (day <= 0 || day >= 32)
+                if (day <= 0 || day >= 26)
                 {
-                    Console.WriteLine("Pleas input a day from 1 to 31");
+                    Console.WriteLine("Pleas input a day from 1 to 25");
                     return 1;
                 }
                 if (part <= 0 || part >= 3)
@@ -34,6 +34,7 @@
                         3 => new Day3(),
                         4 => new Day4(),
                         5 => new Day5(),
+                        6 => new Day6(),
                         _ => null,
                     };
                     if (selectedDay == null)
@@ -42,7 +43,7 @@
                         return 1;
                     }
 
-                    int result = selectedDay.Action(part, args[2]);
+                    long result = selectedDay.Action(part, args[2]);
 
                     Console.WriteLine("Result for day {0}, part {1} ===> {2}", day, part, result);
                 }

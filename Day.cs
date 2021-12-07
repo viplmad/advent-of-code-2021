@@ -2,7 +2,7 @@
 {
     internal abstract class Day
     {
-        public int Action(int part, string filePath)
+        public long Action(int part, string filePath)
         {
             IList<string> list = ReadFile(filePath);
 
@@ -31,7 +31,7 @@
             return list;
         }
 
-        protected abstract int Part1(IList<string> list);
-        protected abstract int Part2(IList<string> list);
+        protected abstract long Part1(IList<string> list);
+        protected abstract long Part2(IList<string> list);
     }
 }

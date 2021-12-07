@@ -2,7 +2,7 @@
 {
     internal sealed class Day1 : Day
     {
-        protected override int Part1(IList<string> list)
+        protected override long Part1(IList<string> list)
         {
             int result = 0;
 
@@ -22,7 +22,7 @@
             return result;
         }
 
-        protected override int Part2(IList<string> list)
+        protected override long Part2(IList<string> list)
         {
             int result = 0;
 

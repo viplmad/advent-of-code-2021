@@ -7,7 +7,7 @@
         private const int MAP_LENGTH = 1000;
         private const int MIN_LINES_OVERLAP = 2;
 
-        protected override int Part1(IList<string> list)
+        protected override long Part1(IList<string> list)
         {
             int[,] map = new int[1000, 1000];
 
@@ -61,7 +61,7 @@
             return minLinesOverlapSum;
         }
 
-        protected override int Part2(IList<string> list)
+        protected override long Part2(IList<string> list)
         {
             int[,] map = new int[1000, 1000];
 
