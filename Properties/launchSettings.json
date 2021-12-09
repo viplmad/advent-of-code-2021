@@ -55,6 +55,16 @@
     "Day 7, Part 2": {
       "commandName": "Project",
       "commandLineArgs": "7 2 ..\\..\\..\\resources\\day7_input.txt"
+    },
+    "Day 8, Part 1": {
+      "commandName": "Project",
+      "commandLineArgs": "8 1 ..\\..\\..\\resources\\day8_input.txt"
+    },
+    "Day 8, Part 2": {
+      "commandName": "Project",
+      "commandLineArgs": "8 2 ..\\..\\..\\resources\\day8_input.txt",
+      "hotReloadEnabled": false,
+      "nativeDebugging": true
     }
   }
 }
